@@ -15,6 +15,10 @@ class CartService
     end
   end
 
+  def get_cart_items
+    cart.cart_items
+  end
+
   private
 
   attr_accessor :cart
