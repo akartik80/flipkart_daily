@@ -1,0 +1,3 @@
+class StockLocation < ApplicationRecord
+
+end
