@@ -4,8 +4,7 @@ class StockItemService < BaseService
   end
 
   def add_stock(count)
-    self.count = self.count + count
-    save!
+    stock_item.increment!(:count, count)
   end
 
   private
